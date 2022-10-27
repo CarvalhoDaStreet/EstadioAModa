@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        Estádio À Moda
+    </title>
+    <style>
+        .button1 {
+            background-color: #FF8C32;
+            border: none;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 28px;
+            border: 3px solid #ffffff;
+            font-size: 17px;
+            font-weight: bold;
+            position: absolute;
+            z-index: 99;
+            left: 1650px;
+            top: 30px;
+            width: 180px;
+        }
+
+        .button2 {
+            background-color: #FF8C32;
+            border: none;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 28px;
+            border: 3px solid #ffffff;
+            font-size: 17px;
+            font-weight: bold;
+            position: absolute;
+            z-index: 99;
+            left: 1650px;
+            top: 100px;
+            width: 180px;
+        }
+
+        .button3 {
+            background-color: #FF8C32;
+            border: none;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 28px;
+            border: 3px solid #ffffff;
+            font-size: 17px;
+            font-weight: bold;
+            position: absolute;
+            z-index: 99;
+            left: 1650px;
+            top: 170px;
+            width: 180px;
+        }
+
+        .intro {
+            color: black;
+            position: absolute;
+            z-index: 99;
+            bottom: 60px;
+            width: fit-content;
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            left: 35%;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <script src="./JavaScript/inflate.min.js"></script>
+    <script src="./JavaScript/matrizes.js"></script>
+    <script src="./JavaScript/camara.js"></script>
+    <script src="./JavaScript/shaders.js"></script>
+    <script src="./JavaScript/three.js"></script>
+    <script src="./JavaScript/FBXLoader.js"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="./JavaScript/app.js"></script>
+
+    <button id="btnCamara" type="button" class="button1" onclick="alternarCamara()">Alternar Câmara</button>
+    <button id="btnPointLight" type="button" class="button2" onclick="addPointLight()">Point Light</button>
+    <button id="btnAmbientLight" type="button" class="button3" onclick="addAmbientLight()">Ambient Light</button>
+    <label class="intro">Clique nas setas para mover a bola</ç>
+
+</body>
+
+</html>
